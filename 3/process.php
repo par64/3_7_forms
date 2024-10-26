@@ -20,6 +20,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Имя: " . htmlspecialchars($r['name']) . "<br>";
         echo "Отзыв: " . htmlspecialchars($r['review']) . "<br>";
         echo "Оценка: " . htmlspecialchars($r['rating']). "<br>" . "<br>";
-        }
+        } 
 }
 
